@@ -31,6 +31,20 @@ I examined:
 - Process information
 - Available network information
 
+## Evidence
+
+### Event ID 4625 Filtered Results
+
+The Windows Security log was filtered for Event ID 4625, revealing multiple failed authentication events.
+
+![Event Viewer 4625 Filter](01-event-viewer-4625-filter.png)
+
+### Event ID 4625 Detailed Analysis
+
+I examined an individual Event ID 4625 to review the logon type, failure information, status codes, process information, and available network information.
+
+![Event 4625 Details](02-event-4625-details.png)
+
 ## Findings
 
 One investigated event contained:
